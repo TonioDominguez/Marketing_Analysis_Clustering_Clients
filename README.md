@@ -41,6 +41,8 @@ This methodology ensures a robust foundation for uncovering actionable insights 
 
 ├── data/
 
+│ ├── clustered_data.csv
+
 │ ├── cleaned_data_no_scaling.csv
 
 │ ├── cleaned_data.csv
