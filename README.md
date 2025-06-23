@@ -35,6 +35,9 @@ Although a comprehensive EDA was conducted in the previous phase of the project,
 **4. Clustering & Buyer Persona Creation:**  
 We apply clustering algorithms to segment customers into meaningful groups. By analyzing the characteristics and behaviors within each cluster, we develop detailed buyer personas that represent the store’s most significant customer types.
 
+**5. Clustering Patterns Visualizations**
+The last step is to analize and understand the clusters our model create throug Power BI. This would allow us to match the meaning of the new cluster with the old buyer persona developed in the previous project.
+
 This methodology ensures a robust foundation for uncovering actionable insights and supporting the marketing team in crafting targeted, data-driven strategies.
 
 ## Repository Structure
@@ -49,6 +52,12 @@ This methodology ensures a robust foundation for uncovering actionable insights 
 
 │ └── for_eda.csv
 
+├── power_bi/
+
+│ ├── cluster_analysis.pbix
+
+│ └── cluster_analysis.pdf
+
 ├── utils/
 
 │ └── functions.py 
@@ -62,6 +71,7 @@ This methodology ensures a robust foundation for uncovering actionable insights 
 ├── LICENSE 
 
 - **data/**: Contains the datasets used throughout the project.
+- **power_bi**: One file with the power bi template and other one with pdf.
 - **utils/**: Helper functions for data processing and analysis.
 - **preprocessing.ipynb**: Notebook for data cleaning and preprocessing.
 - **modeling.ipynb**: Notebook for clustering and evaluation.
